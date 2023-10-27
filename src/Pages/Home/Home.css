@@ -1,0 +1,27 @@
+.home {
+    max-width: 1280px;
+    margin: 0 auto;
+    /* padding: 2rem; */
+    text-align: center;
+}
+
+.about-section{
+    max-width: 1280px;
+    margin: 0 auto;
+    /* padding: 2rem; */
+    text-align: center;
+}
+
+.section2 {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+  
+.section3{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.how-to-card{
+    max-width: 250px;
+}
