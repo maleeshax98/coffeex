@@ -45,7 +45,8 @@ export default function Contact() {
 
             <div className="col-span-full">
               <label htmlFor="about" className="block text-sm font-medium leading-6 text-gray-900">
-                Message
+    <pre>gg - {import.meta.env.REACT_APP_FIREBASE_API_KEY}</pre>
+                Message 
               </label>
               <div className="mt-2">
                 <textarea

@@ -15,6 +15,7 @@ import Contact from './Pages/Contact/Contact'
 function App() {
   return (
     <div className='App'>
+
       <BrowserRouter>
         <NavBar />
       <Routes>
