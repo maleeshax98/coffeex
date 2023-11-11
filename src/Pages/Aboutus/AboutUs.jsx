@@ -2,8 +2,9 @@ import React from 'react';
 
 const AboutUs = () => {
   return (
-    <section className="bg-gray-100 py-12 mt-[150px]">
-        <center>
+    <section className="bg-gray-100 py-12">
+       <div className='mt-[80px]'>
+       <center>
             <img src="/assets/logo.png" alt="" />
 
         </center>
@@ -14,7 +15,7 @@ const AboutUs = () => {
             Welcome to Your Coffee Shop, where your love for coffee meets convenience. We're more than just a coffee shop; we're your daily dose of energy and comfort. Our passion for coffee and commitment to quality set us apart.
           </p>
           <p className="text-lg">
-            Founded in [Year], we've been serving the finest coffee, pastries, and more to the community. Our mission is to provide you with a memorable coffee experience, whether you're on the go or relaxing in our cozy cafe.
+            Founded in 1998, we've been serving the finest coffee, pastries, and more to the community. Our mission is to provide you with a memorable coffee experience, whether you're on the go or relaxing in our cozy cafe.
           </p>
           <p className="text-lg">
             What makes us special? Our focus on innovation. We've introduced a cutting-edge pre-ordering system that allows you to skip the wait and enjoy your favorite coffee and snacks at your convenience. Simply browse our menu, place your order online, and pick it up when it suits you. No more lines, no more waiting – just pure coffee joy.
@@ -30,6 +31,7 @@ const AboutUs = () => {
           </p>
         </div>
       </div>
+       </div>
     </section>
   );
 };

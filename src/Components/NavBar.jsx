@@ -44,8 +44,8 @@ export default function NavBar() {
                 {/* <div className="search">
                     <input className='border-solid outline-none border-2 border-[#FF902A] p-[5px] md:p-[10px] rounded-full ' type="text" placeholder='Search' />
                 </div> */}
-                { !showNav && <FontAwesomeIcon icon={faBars} onClick={ (e) => {setShowNav(prev => !prev)}} className='block md:hidden'/> }
-                { showNav &&  <FontAwesomeIcon icon={faClose} onClick={ (e) => {setShowNav(prev => !prev)}}  className='block md:hidden'/>}
+                { !showNav && <FontAwesomeIcon icon={faBars} onClick={ (e) => {setShowNav(prev => !prev)}} className='block md:hidden w-[30px] h-[30px] m-[20px]'/> }
+                { showNav &&  <FontAwesomeIcon icon={faClose} onClick={ (e) => {setShowNav(prev => !prev)}}  className='block md:hidden w-[30px] h-[30px] m-[20px]'/>}
             </div>
             {showNav && (
                 <div className="block md:hidden bg-white mt-[80px] p-[30px] h-[50%] rounded-md w-[100%] fixed z-10 links">

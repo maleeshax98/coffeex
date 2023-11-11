@@ -15,22 +15,21 @@ import Contact from './Pages/Contact/Contact'
 function App() {
   return (
     <div className='App'>
-
       <BrowserRouter>
         <NavBar />
-      <Routes>
-          <Route path='/home' element={<Home />} />
-          <Route path='/' element={<Home />} />
-          <Route path='/menus/breakfast' element={<Breakfast />} />
-          <Route path='/menus/lunch' element={<Lunch />} />
-          <Route path='/menus/dinner' element={<Dinner />} />
-          <Route path='/add' element={<Add />} />
-          <Route path='/menu' element={<Menu />} />
-          <Route path='/aboutus' element={<AboutUs />} />
-          <Route path='/report' element={<Report />} />
-          <Route path='/contact' element={<Contact />} />
-      </Routes>
-      <Footer />
+        <Routes>
+            <Route path='/home' element={<Home />} />
+            <Route path='/' element={<Home />} />
+            <Route path='/menus/breakfast' element={<Breakfast />} />
+            <Route path='/menus/lunch' element={<Lunch />} />
+            <Route path='/menus/dinner' element={<Dinner />} />
+            <Route path='/add' element={<Add />} />
+            <Route path='/menu' element={<Menu />} />
+            <Route path='/aboutus' element={<AboutUs />} />
+            <Route path='/report' element={<Report />} />
+            <Route path='/contact' element={<Contact />} />
+        </Routes>
+        <Footer />
     </BrowserRouter>
     </div>
   )
